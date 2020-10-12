@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.loginContainer {
+  margin: 80px 0 0 80px;
+}
+.wrapper h1 {
+  font-size: 40px;
+  font-weight: inherit;
+}
+.wrapper h4 {
+  font-weight: inherit;
+  font-size: 14px;
+  color: red;
+}
+.wrapper h5 {
+  font-weight: inherit;
+  font-size: 14px;
+  color: rgb(87, 233, 87);
+}
+
+.wrapper form input {
+  margin-top: 5px;
+  border: 0.2px solid black;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.wrapper button {
+  margin-top: 3px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.wrapper p {
+  margin-top: 5px;
+}
+.wrapper p {
+  font-size: 14px;
+}
+.wrapper p a {
+  text-decoration: none;
+}

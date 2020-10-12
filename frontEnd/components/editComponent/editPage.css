@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.editPageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.editWrapper h1 {
+  font-weight: initial;
+  font-size: 22px;
+}
+.editWrapper {
+  text-align: center;
+  border: 0.1px solid gray;
+  border-radius: 5px;
+  width: 500px;
+  padding: 10px;
+}
+.editProfile img {
+  width: 170px;
+  height: 170px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.errormsg p {
+  color: rgb(241, 70, 70);
+}
+.editWrapper form input {
+  margin-top: 5px;
+  border: 0.2px solid black;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.editWrapper button {
+  padding: 2px 30px 2px 30px;
+  margin: 1px 2px 5px 0;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.editWrapper p {
+  font-size: 13px;
+}
+.editWrapper p a {
+  text-decoration: none;
+}

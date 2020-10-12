@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.profileWrapper {
+  text-align: center;
+  border: 0.1px solid gray;
+  border-radius: 5px;
+  width: 500px;
+  padding: 10px;
+}
+.errormsg p {
+  color: rgb(241, 70, 70);
+  font-size: 12px;
+}
+.errormsg h5 {
+  color: rgb(52, 216, 52);
+  font-size: 12px;
+  font-weight: initial;
+}
+.profileWrapper form label {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 0.5px 30px 0.5px 30px;
+  border-radius: 5px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.profileWrapper form {
+  margin-bottom: 20px;
+}
+.profile img {
+  width: 170px;
+  height: 170px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.profileWrapper h1 {
+  font-weight: initial;
+}
+.profileWrapper h3 {
+  margin: 5px;
+}
+.profileWrapper button {
+  cursor: pointer;
+  padding: 2px 30px 2px 30px;
+  margin: 1px 2px 5px 0;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}

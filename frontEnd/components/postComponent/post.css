@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.postsContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.postWrapper {
+  border: 0.1px solid gray;
+  width: 600px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.postWrapper form {
+  box-shadow: 1px 1px 3px grey;
+  padding: 20px;
+}
+.postWrapper form h1 {
+  font-weight: initial;
+}
+
+.postWrapper form input {
+  width: 500px;
+  border: none;
+  height: 30px;
+  box-shadow: 1px 1px 3px grey;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+.postWrapper form label {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 1px 30px 1px 30px;
+  border-radius: 5px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.postWrapper form button {
+  cursor: pointer;
+  padding: 2px 30px 2px 30px;
+  margin-left: 50%;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.postWrapper h3 {
+  padding: 5px;
+  text-align: center;
+  font-weight: initial;
+}
+.postContainer {
+  box-shadow: 1px 1px 3px grey;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 0.1px solid gray;
+}
+.info img {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.desc p {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.photoVideoContainer {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+}
+.photoVideoContainer img {
+  height: 220px;
+}

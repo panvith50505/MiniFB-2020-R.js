@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.gallaryContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.gallaryWrapper {
+  border: 0.1px solid gray;
+  width: 600px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.gallaryWrapper h1 {
+  box-shadow: 1px 1px 3px grey;
+  padding: 20px;
+  font-weight: initial;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.mediaContainer {
+  box-shadow: 1px 1px 3px grey;
+  padding: 20px;
+  margin-bottom: 5px;
+}
